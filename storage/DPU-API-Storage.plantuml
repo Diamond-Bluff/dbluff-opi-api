@@ -1,0 +1,26 @@
+@startmindmap
+* Device
+** Front End (host)
+*** NVMe Subsystem
+*** NVMe Controller
+*** NVMe Namespace
+** BackEnd (fabric)
+*** NVMe
+**** PCIe
+**** TCP
+***** ipv4
+***** ipv6
+**** RDMA
+***** ipv4
+***** ipv6
+*** iSCSI
+**** ipv4
+**** ipv6
+*** Null
+*** AIO
+*** Memory
+** System
+*** telemetry
+*** log
+*** statsistics
+@endmindmap
